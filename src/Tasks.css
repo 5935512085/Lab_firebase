@@ -1,0 +1,50 @@
+li{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 200px;
+    border-width: 2px;
+    border-style: dashed;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 5px rgba(219, 49, 49, 0.36);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.id{
+    position: absolute;
+    right: 4px;
+    top: 2px;
+}
+
+.name{
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+}
+button{
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    display: flex;
+}
+
+.green{
+    background-color: aquamarine;
+}
+.red{
+    background-color: lightsalmon;
+}
